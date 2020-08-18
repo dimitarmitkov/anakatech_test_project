@@ -1,5 +1,4 @@
 let tr = document.getElementById("tb1");
-
 let td = tr.getElementsByTagName("td");
 let counter = 0;
 let oddCounter = 1;
@@ -38,8 +37,6 @@ let v = setInterval(function () {
     if (oddCounter === 6) {
         clearInterval(v);
     }
-
-
-}, 100);
+}, 5000);
 
 setInterval();

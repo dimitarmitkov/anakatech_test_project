@@ -13,17 +13,9 @@ fetch("data.json")
         Object.keys(obj).forEach(m=> headArr.push("EUR"+ m));
         Object.values(obj).forEach(m=> bodyArr.push(m));
 
-
-        // for (let i = 0; i < headArr.length; i++) {
-        //     trth.innerHTML+=`<td>${headArr[i]}</td>`
-        //     trtb.innerHTML+=`<td>${bodyArr[i]}</td>`
-        // }
-
         for (let i = 0; i < headArr.length; i++) {
             trtb.innerHTML+=`<tr><td>${headArr[i]}</td> <td>${bodyArr[i]}</td> </tr>`
         }
-
-
     });
 
 
